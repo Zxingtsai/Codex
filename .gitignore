@@ -1,0 +1,27 @@
+# Private signing material and credentials
+signing/
+*.p12
+*.jks
+*.keystore
+*.pem
+*.key
+password.txt
+.env
+.env.*
+.ssh/
+
+# Generated build output and local tools
+build/
+repro-build/
+decoded/
+tools/
+output/
+*.class
+__pycache__/
+*.pyc
+*.idsig
+
+# Original proprietary input is supplied locally
+music-player-3.0.4.apk
+音乐播放器_3.0.4.apk
+Walkman-SleepStats-source.zip
